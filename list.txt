@@ -11,4 +11,5 @@ iCode芯砚
 vim
 atom
 Catch22 HexEdit
+kate
 
