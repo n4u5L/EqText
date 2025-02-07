@@ -1,0 +1,14 @@
+software list
+everedit
+https://vvsolo.github.io/docs/#/
+notepad++
+sublime
+emeditor
+ultraedit
+vscode
+editplus
+iCode芯砚
+vim
+atom
+Catch22 HexEdit
+
