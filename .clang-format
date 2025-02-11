@@ -1,0 +1,12 @@
+AccessModifierOffset: -4
+AlwaysBreakBeforeMultilineStrings: false
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+BreakBeforeBraces: Attach
+IndentWidth: 2
+PointerAlignment: Left
+SortIncludes: false
+SortUsingDeclarations: false
+SpacesBeforeTrailingComments: 1
+SpacesInContainerLiterals: false
+TabWidth: 2
