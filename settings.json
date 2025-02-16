@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.editor.enablePreview": false,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "terminal.integrated.profiles.windows": {
+        "w64devkit": {
+            "path": "C:\\w64devkit\\w64devkit.exe",
+            "icon": "code",
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "w64devkit",
+    "clangd.path": "C:\\w64devkit\\bin\\clangd.exe",
+    "clangd.arguments": [
+        "--log=error",
+        "--query-driver=C:\\w64devkit\\bin\\*",
+        "--header-insertion=never"
+    ],
+    "makefile.configureOnOpen": false
+}
