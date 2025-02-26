@@ -5,13 +5,7 @@ ULONG previousPort66Value = 0;
 
 // 定义函数读取端口值
 ULONG ReadPort(ULONG portAddress) {
-    ULONG value;
-    __asm {
-        mov dx, portAddress
-        in eax, dx
-        mov value, eax
-    }
-    return value;
+    return READ_PORT_UCHAR(portAddress)
 }
 
 // 驱动卸载例程
