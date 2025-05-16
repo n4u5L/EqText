@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "GitHub Dark",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "workbench.editor.enablePreview": false,
@@ -8,18 +7,45 @@
     "editor.minimap.enabled": false,
     "editor.formatOnSaveMode": "file",
     "editor.formatOnSave": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "terminal.integrated.profiles.windows": {
-        "w64devkit": {
-            "path": "C:\\w64devkit\\w64devkit.exe",
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": null,
+        "msvc x64 native": {
+            "path": "C:\\Users\\dwcre\\MyCode\\bin\\cmdforvscode.bat",
             "icon": "code",
         }
     },
-    "terminal.integrated.defaultProfile.windows": "w64devkit",
-    "clangd.path": "C:\\w64devkit\\bin\\clangd.exe",
+    "terminal.integrated.defaultProfile.windows": "msvc x64 native",
+    "clangd.path": "C:\\Users\\dwcre\\MyCode\\bin\\clangd_19.1.2\\bin\\clangd.exe",
     "clangd.arguments": [
         "--log=error",
-        "--query-driver=C:\\w64devkit\\bin\\*",
         "--header-insertion=never"
     ],
-    "makefile.configureOnOpen": false
+    "makefile.makePath": "C:\\Users\\dwcre\\MyCode\\bin\\make\\bin\\make.exe",
+    "cmake.cmakePath": "C:\\Users\\dwcre\\MyCode\\bin\\cmake-4.0.1-windows-x86_64\\bin\\cmake.exe",
+    "cmake.outputLogEncoding": "UTF-8",
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "CMAKE_MAKE_PROGRAM": "C:\\Users\\dwcre\\MyCode\\bin\\ninja.exe"
+    },
+    "cmake.buildArgs": [],
+    "explorer.confirmDelete": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "redhat.telemetry.enabled": true
 }
