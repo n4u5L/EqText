@@ -1,0 +1,2 @@
+# EqText
+## a sudoku solver
