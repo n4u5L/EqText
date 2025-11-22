@@ -1,2 +1,1 @@
-# EqText
-## a sudoku solver
+# Arc
